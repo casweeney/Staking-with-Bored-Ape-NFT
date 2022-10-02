@@ -13,7 +13,7 @@ contract PulseToken is ERC20, Ownable {
         _mint(admin, 2000000 * 10 ** 18);
     }
 
-    function mint(uint _amount) public {
-        _mint(msg.sender, _amount);
+    function mint(address _addr,uint _amount) public {
+        _mint(_addr, _amount);
     }
 }
