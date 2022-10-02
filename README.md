@@ -7,7 +7,10 @@ Only users that owns a Bored Ape NFT can stake on this platform.
 #### Steps to building this:
 1. I created a token which I called platform token.
 2. I got Bored Ape NFT address on ethereum mainnet.
-3. I forked mainnet on my localhost using: npx hardhat node --fork https://eth-mainnet.alchemyapi.io/v2/<key>
+3. I forked mainnet on my localhost using: 
+```
+npx hardhat node --fork https://eth-mainnet.alchemyapi.io/v2/<key>
+```
 
 #### Testing this project:
 (deployToken.ts)
